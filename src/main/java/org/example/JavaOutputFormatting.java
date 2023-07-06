@@ -6,7 +6,6 @@ public class JavaOutputFormatting {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("================================");
-        int lineCount = 0;
 
         while (scanner.hasNextLine()) {
             String inputLine = scanner.nextLine().trim();
@@ -18,7 +17,6 @@ public class JavaOutputFormatting {
 
                 // Width of 15 for strings, minimum of 3 characters wide, pad with 0s instead of spaces, break after each line
                 System.out.printf("%-15s%03d%n", inputString, inputNumber);
-                lineCount++;
             }
         }
         System.out.println("================================");
