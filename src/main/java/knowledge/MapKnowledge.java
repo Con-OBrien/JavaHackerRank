@@ -2,7 +2,7 @@ package knowledge;
 
 import java.util.TreeMap;
 
-public class Map {
+public class MapKnowledge {
     public static void main(String[] args) {
         //Map declaration:
         TreeMap<Integer, Integer> A = new TreeMap<>();
